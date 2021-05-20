@@ -1,0 +1,28 @@
+.about{
+  position: absolute;
+  top: 75px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.tableContainer table{
+  table-layout: fixed;
+  width: 80%;
+  border-spacing: 0 20px
+}
+
+.infoTitle{
+  width: 30%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.infoValue{
+  width: 70%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.tableContainer{
+  margin: 40px auto;
+}

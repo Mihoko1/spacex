@@ -1,0 +1,123 @@
+.rocketDetails{
+  width: 100%;
+  position: absolute;
+  top: 75px;
+}
+
+.rocketDescription{
+  text-align: left;
+}
+
+.detailContainer{
+  width: 80%;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.detailContainer h1{
+  /* text-align: left; */
+  font-size: 40px;
+}
+
+.rocketDetailImg{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.titlebg{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: -75px;
+  margin: 0;
+}
+
+.heading{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.overviewContainer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: auto;
+}
+
+.categoryContainer h3{
+  margin: 15px auto;
+  color: #2471A3;
+}
+
+.categoryContainer p{
+  display: inline;
+  font-size: 14px;
+}
+
+.categoryContainer p:first-of-type{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.payloadContainer{
+  width: 100%;
+  margin: 50px auto;
+}
+
+.payloadContainer h4{
+  margin: 10px auto 5px;
+}
+.payloadContainer h5{
+  margin: 5px auto 10px;
+}
+
+.categoryContainer{
+  display: inline-block;
+  /* text-align: left; */
+
+}
+
+.payloadContainer h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #2471A3;
+}
+
+.payloadName{
+  margin: 5px auto 5px;
+  color: #3569a4;
+}
+
+
+.payloadList{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:1em;
+}
+
+.rocketDetails .link{
+  text-align: center;
+  margin:10px auto;
+  display:block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  background: #000;
+  padding: 15px;
+  width: 25%;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.rocketDetails .link:hover{
+  background-color: #424949;
+}
+
+.noData h2{
+  text-align: center;
+  margin: 0 auto;
+}
